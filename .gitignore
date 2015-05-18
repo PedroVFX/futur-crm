@@ -1,4 +1,5 @@
 .secret
+*~
 *.rbc
 capybara-*.html
 .rspec
