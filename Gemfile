@@ -75,6 +75,8 @@ group :heroku do
   gem 'rails_12factor'
 end
 
+gem 'rails_12factor', group: :production
+
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
