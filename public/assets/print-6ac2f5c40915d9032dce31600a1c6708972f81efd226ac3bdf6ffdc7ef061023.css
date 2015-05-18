@@ -1,0 +1,104 @@
+/* line 8, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+html, body {
+  background: white;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-family: droid-sans, arial, sans-serif;
+  height: 100%;
+  line-height: normal;
+  font-size: 90%;
+}
+
+/* line 21, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+a {
+  color: black;
+}
+
+/* line 24, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+/* line 28, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+tt {
+  font-family: droid-sans, arial, sans-serif;
+  font-size: 13px;
+  display: inline;
+}
+
+/* line 33, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+td#sidebar, div#header, div.tabs, div#footer, div.title_tools, div.tools, ul.tools, div.subtitle_tools, div.new_comment, a.toggle {
+  display: none !important;
+}
+
+/* line 36, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+div.section.nostyle div {
+  display: block !important;
+}
+
+/* line 39, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+.subtitle.show_attributes a small, .subtitle.show_attributes small {
+  display: none !important;
+}
+
+/* line 42, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+div.subtitle, .subtitle.show_attributes a {
+  font-size: 18px;
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+/* line 48, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+#contact_show_general_intro, #contact_show_extra_intro {
+  display: none !important;
+}
+
+/* line 51, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+.gravatar {
+  display: none;
+}
+
+/* line 54, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+.title {
+  font-weight: bold;
+  font-size: 33px;
+  margin-bottom: 12px;
+}
+
+/* line 59, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+table {
+  width: 100%;
+}
+/* line 61, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+table td, table th {
+  text-align: left;
+  padding: 3px 7px;
+}
+/* line 64, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+table th {
+  font-weight: bold;
+}
+/* line 67, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+table td strong {
+  font-weight: normal;
+}
+
+/* line 70, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+.comment .body {
+  display: block;
+}
+
+/* line 73, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+.comment.highlight {
+  background-color: transparent;
+}
+
+/* line 76, /home/pvp/novoproj/railsmn-dev-box/shared/app/futur-crm/app/assets/stylesheets/print.css.scss */
+.task input {
+  display: none !important;
+}
