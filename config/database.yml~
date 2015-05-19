@@ -1,8 +1,16 @@
----
-development: &development
+default: &default
   adapter: postgresql
   encoding: UTF-8
-  database: fat_free_crm_development
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+
+development:
+  <<: *default
+  host: ec2-50-19-233-111.compute-1.amazonaws.com
+  username: necydoecdddrbn
+  database: ddsnsin1anajbk
+  password: CJrzHo2fbgdK6_N0GDwwpwp4oS
   schema_search_path: public
   min_messages: warning
 
@@ -13,9 +21,9 @@ test:
   <<: *development
   database: fat_free_crm_test
 
-production:
-  <<: *development
-  database: fat_free_crm_production
+#production:
+#  <<: *development
+#  database: fat_free_crm_production
 
 staging:
   <<: *development

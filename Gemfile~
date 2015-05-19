@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 # ----------------------------------------------------------------------
 # gem 'mysql2'
 # gem 'sqlite3'
-gem 'pg'
 
 # Removes a gem dependency
 def remove(name)
@@ -74,9 +73,10 @@ group :heroku do
   gem 'unicorn', platform: :ruby
   gem 'rails_12factor'
 end
-
+gem 'node'
+gem 'pg'
 gem 'rails_12factor', group: :production
-
+gem 'unicorn'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
